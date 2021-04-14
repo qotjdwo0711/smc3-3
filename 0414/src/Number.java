@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Number {	
 
 	public static void main(String[] args) {
-		System.out.print("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçÁÖ¼¼¿©(1~50):");
-		Scanner sc = new Scanner(System.in);
+		System.out.print("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ì£¼ì„¸ì—¬(1~50):");
+		Scanner sc = new Scanner(System.in); //ìŠ¤ìºë„ˆ ìƒì„±
 		int num = sc.nextInt();
-		int diff = 0;
+		int diff = 0; //ê½ ìƒì„±
 		int []arr = new int[10];
 		
 		for(int a=0; a<10; a++){
@@ -17,12 +17,12 @@ public class Number {
 		
 		for(int i=0; i<10; i++){
 			if(arr[i] == num){
-				System.out.println("´çÃ·! ÀÏÄ¡ÇÏ´Â ¼ıÀÚ°¡ ÀÖ½À´Ï´Ù.");
+				System.out.println("ë‹¹ì²¨! ì¼ì¹˜í•˜ëŠ” ìˆ«ìê°€ ìˆìŠµë‹ˆë‹¤.");
 				diff=1;
 			}		
 		}
-		if(diff == 0) System.out.println("²Î ´ÙÀ½ ±âÈ¸¿¡~");
-	}
+		if(diff == 0) System.out.println("ê½ ë‹¤ìŒ ê¸°íšŒì—~");
+ 	}
 }
 
 
