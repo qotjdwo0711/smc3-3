@@ -21,7 +21,7 @@ public class Number {
 				diff=1;
 			}		
 		}
-		if(diff == 0) System.out.println("꽝 다음 기회에~");
+		if(diff == 0) System.out.println("꽝 다음 기회에~"); //꽝 추가
  	}
 }
 
